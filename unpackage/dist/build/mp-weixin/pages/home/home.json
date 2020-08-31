@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-swiper-dot": "/components/uni-swiper-dot/uni-swiper-dot",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "login-modal": "/components/Modal/loginModal"
+  }
+}

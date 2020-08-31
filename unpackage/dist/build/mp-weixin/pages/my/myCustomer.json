@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的客户",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "edit-modal": "/components/Modal/editModal"
+  }
+}

@@ -1,0 +1,50 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"minified": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "",
+	"appid": "wx685226499ed8d55c",
+	"projectname": "英棒房产",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/my/myRecord",
+					"pathName": "pages/my/FavorShow",
+					"query": "id=8049&name=默认&manager=1",
+					"scene": null
+				}
+			]
+		}
+	}
+}

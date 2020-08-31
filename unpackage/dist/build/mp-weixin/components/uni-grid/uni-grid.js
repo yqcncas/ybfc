@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/uni-grid/uni-grid"],{"0d52":function(t,n,u){"use strict";var e=u("fadb"),o=u.n(e);o.a},"41b8":function(t,n,u){"use strict";u.r(n);var e=u("e9c0"),o=u.n(e);for(var r in e)"default"!==r&&function(t){u.d(n,t,(function(){return e[t]}))}(r);n["default"]=o.a},7954:function(t,n,u){"use strict";u.r(n);var e=u("e437"),o=u("41b8");for(var r in o)"default"!==r&&function(t){u.d(n,t,(function(){return o[t]}))}(r);u("0d52");var i,c=u("f0c5"),a=Object(c["a"])(o["default"],e["b"],e["c"],!1,null,null,null,!1,e["a"],i);n["default"]=a.exports},e437:function(t,n,u){"use strict";var e,o=function(){var t=this,n=t.$createElement;t._self._c},r=[];u.d(n,"b",(function(){return o})),u.d(n,"c",(function(){return r})),u.d(n,"a",(function(){return e}))},e9c0:function(t,n,u){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var e={name:"UniGrid",props:{options:{type:Array,default:function(){return[]}},type:{type:String,default:"square"},columnNum:{type:[Number,String],default:3},showOutBorder:{type:Boolean,default:!0},showBorder:{type:Boolean,default:!0},home:{type:Boolean,default:!1}},data:function(){return{}},computed:{gridGroup:function(){var t=this,n=[],u=[];if(this.options&&this.options.forEach((function(e,o){u.push(e),o%t.columnNum===t.columnNum-1&&(n.push(u),u=[])})),u.length>0){if(this.columnNum>u.length)for(var e=0,o=u.length;e<this.columnNum-o;e++)u.push({seize:!0});n.push(u)}return u=null,n}},created:function(){this.columnNumber=this.gridGroup[0].length},methods:{onClick:function(t,n){this.$emit("click",{index:t*this.columnNumber+n})}}};n.default=e},fadb:function(t,n,u){}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/uni-grid/uni-grid-create-component',
+    {
+        'components/uni-grid/uni-grid-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("7954"))
+        })
+    },
+    [['components/uni-grid/uni-grid-create-component']]
+]);

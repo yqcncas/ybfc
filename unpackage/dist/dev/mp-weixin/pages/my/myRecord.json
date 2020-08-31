@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "浏览记录",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "u-action-sheet": "/node-modules/uview-ui/components/u-action-sheet/u-action-sheet"
+  }
+}

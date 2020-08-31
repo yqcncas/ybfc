@@ -1,0 +1,1 @@
+<view><view class="content-detail"><parser vue-id="72d48f83-1" html="{{detailData}}" bind:__l="__l"></parser></view></view>

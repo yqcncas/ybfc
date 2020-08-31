@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+.placeHolderClass{
+	color: #9B9B9B;
+	font-size: 28rpx;
+}
+

@@ -1,0 +1,20 @@
+{
+  "name": "uni-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.8.16",
+    "jweixin-module": "^1.6.0",
+    "mpvue-citypicker": "^1.0.3",
+    "mpvue-picker": "^2.1.1",
+    "uview-ui": "^1.2.9",
+    "vue-baidu-map": "^0.21.22"
+  }
+}

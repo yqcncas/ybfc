@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-swiper-dot": "/components/uni-swiper-dot/uni-swiper-dot",
+    "guess": "/components/Guess/Guess",
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "login-modal": "/components/Modal/loginModal",
+    "parser": "/components/jyf-Parser/index"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "独家委托",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "drop-choose": "/components/drop-choose/drop-choose",
+    "login-modal": "/components/Modal/loginModal"
+  }
+}

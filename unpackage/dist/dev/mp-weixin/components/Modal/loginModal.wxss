@@ -1,0 +1,66 @@
+.Modal {
+  width: 620rpx;
+  height: 350rpx;
+  position: fixed;
+  top: 450rpx;
+  left: 60rpx;
+  right: 60rpx;
+  background: #FFFFFF;
+  z-index: 101;
+  border-radius: 8rpx;
+}
+.Modal > view:first-child {
+  width: 560rpx;
+  text-align: center;
+  font-size: 40rpx;
+  margin: 30rpx 30rpx;
+  color: #5B5B5B;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.Modal > view:first-child > text:last-child {
+  font-size: 28rpx;
+  color: #A6A6A6;
+  margin-top: 30rpx;
+  font-weight: 100;
+}
+.Modal > view:nth-child(2) {
+  width: 620rpx;
+  margin-top: 60rpx;
+  height: 110rpx;
+}
+.Modal > view:nth-child(2) button {
+  margin: 0 30rpx;
+  width: 560rpx;
+  height: 110rpx;
+  border-radius: 55rpx;
+  background: #874A89;
+  font-size: 28rpx;
+  line-height: 110rpx;
+  color: #FFFFFF;
+}
+/* 遮罩 */
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+.maskShow {
+  opacity: 1;
+  visibility: visible;
+}
+

@@ -1,0 +1,82 @@
+.Modal {
+  width: 620rpx;
+  height: 600rpx;
+  position: fixed;
+  top: 50%;
+  margin-top: -300rpx;
+  left: 60rpx;
+  right: 60rpx;
+  background: #FFFFFF;
+  z-index: 10;
+}
+.Modal-info {
+  width: 560rpx;
+  height: 540rpx;
+  margin: 30rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.Modal-info > view:first-child {
+  width: 560rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  font-size: 40rpx;
+  color: #5B5B5B;
+  font-weight: bold;
+}
+.Modal-info > .year-list {
+  width: 560rpx;
+  height: 300rpx;
+}
+.Modal-info > .confirm {
+  width: 560rpx;
+  height: 120rpx;
+  line-height: 180rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #874A98;
+  text-align: right;
+}
+.Modal-info > .confirm > text {
+  margin-right: 30rpx;
+}
+.indicatorClass {
+  height: 100rpx;
+  width: 560rpx;
+}
+.indicatorClass::before {
+  border: none;
+}
+.indicatorClass::after {
+  border: none;
+}
+.item {
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+/* 遮罩 */
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+.maskShow {
+  opacity: 1;
+  visibility: visible;
+}
+

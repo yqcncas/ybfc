@@ -1,0 +1,8 @@
+
+.content-detail{
+	padding: 30rpx 30rpx;
+	line-height: 60rpx;
+	/* 在这里调整，整体字体大小 */
+	font-size: 28rpx;
+}	
+

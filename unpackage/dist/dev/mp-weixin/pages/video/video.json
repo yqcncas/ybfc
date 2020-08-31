@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "视频列表",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "login-modal": "/components/Modal/loginModal"
+  }
+}

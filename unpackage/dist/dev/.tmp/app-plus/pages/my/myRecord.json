@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "浏览记录",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

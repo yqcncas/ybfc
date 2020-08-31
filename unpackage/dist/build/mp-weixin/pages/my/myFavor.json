@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的收藏夹",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "tui-swipe-action": "/components/tui-swipe-action/tui-swipe-action",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup"
+  }
+}

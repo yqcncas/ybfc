@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "跟进记录",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

@@ -1,0 +1,104 @@
+.Modal {
+  width: 620rpx;
+  height: 400rpx;
+  position: fixed;
+  top: 350rpx;
+  left: 60rpx;
+  right: 60rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  background: #FFFFFF;
+  z-index: 10;
+}
+.Modal > view:first-child {
+  width: 100%;
+  height: 100rpx;
+  font-size: 32rpx;
+  padding: 0 30rpx;
+  line-height: 100rpx;
+  font-weight: bold;
+}
+.Modal > .Modal-button {
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.Modal > .Modal-button > view:first-child {
+  margin-left: 280rpx;
+  width: 280rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  color: #874A98;
+  text-align: center;
+  font-weight: bold;
+}
+.Modal > .Modal-button > view:nth-child(2) {
+  width: 280rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  color: #874A98;
+  text-align: center;
+  font-weight: bold;
+}
+.Modal-list {
+  width: 100%;
+  height: 200rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.type-choose {
+  width: 560rpx;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin: 0 30rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.type-detail {
+  font-size: 28rpx;
+  color: #A2A2A2;
+  margin-left: 30rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+/* 遮罩 */
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+.maskShow {
+  opacity: 1;
+  visibility: visible;
+}
+

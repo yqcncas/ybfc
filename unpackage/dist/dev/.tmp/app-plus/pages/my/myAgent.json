@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的经纪人",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

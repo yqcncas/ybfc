@@ -1,0 +1,1 @@
+<view><u-modal vue-id="0fd7aecc-1" content="{{content}}" value="{{show}}" data-event-opts="{{[['^confirm',[['handleBack']]],['^input',[['__set_model',['','show','$event',[]]]]]]}}" bind:confirm="__e" bind:input="__e" bind:__l="__l"></u-modal></view>

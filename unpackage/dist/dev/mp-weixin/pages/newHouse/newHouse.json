@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "新房详情",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-swiper-dot": "/components/uni-swiper-dot/uni-swiper-dot",
+    "guess": "/components/Guess/Guess",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "login-modal": "/components/Modal/loginModal",
+    "parser": "/components/jyf-Parser/index"
+  }
+}

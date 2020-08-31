@@ -1,0 +1,113 @@
+
+page{
+	background: #F0F0F0;
+}
+.content{
+	width: 676rpx;
+	margin: 40rpx 38rpx 0 38rpx;
+	border-radius: 10rpx;
+}
+/* 分享 */
+.share-tit{
+	width: 676rpx;
+	margin: 80rpx 32rpx 60rpx 32rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.line{
+	width: 262rpx;
+	height: 0;
+	border: 0.5px solid #E2E2E2;
+	margin-top: 22rpx;
+}
+.share-title{
+	font-size: 28rpx;
+	color: #999999;
+	width: 164rpx;
+	height: 40rpx;
+	text-align: center;
+	line-height: 40rpx;
+	font-family: 'PingFangSC';
+	font-weight: 400;
+}
+.share-way{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	margin-bottom: 40rpx;
+}
+.wx-share{
+	width: 140rpx;
+	height: 150rpx;
+	margin-left: 168rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.share-img{
+	margin: 0 26rpx;
+	width: 88rpx;
+	height: 88rpx;
+}
+.share-img image{
+	width: 88rpx;
+	height: 88rpx;
+}
+.share-text{
+	width: 140rpx;
+	margin-top: 22rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	text-align: center;
+	color: #333333;
+	font-weight: 400;
+	font-family: 'PingFangSC';
+	font-size: 28rpx;
+}
+.share-button{
+	width: 140rpx;
+	height: 150rpx;
+	text-align: center;
+	color: #333333;
+	font-weight: 400;
+	font-family: 'PingFangSC';
+	font-size: 28rpx;
+	background:#F0F0F0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	outline: none;
+}
+.share-button::after{
+	border: none;
+}
+.save-Poster{
+	margin-left: 94rpx;
+	width: 140rpx;
+	height: 150rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+

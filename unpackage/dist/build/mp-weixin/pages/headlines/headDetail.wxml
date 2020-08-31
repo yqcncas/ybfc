@@ -1,0 +1,1 @@
+<view><view class="content-detail"><parser vue-id="1314878c-1" html="{{detailData}}" bind:__l="__l"></parser></view><login-modal vue-id="1314878c-2" show="{{modalShow}}" data-event-opts="{{[['^close',[['modalClose']]],['^token',[['getToken']]]]}}" bind:close="__e" bind:token="__e" bind:__l="__l"></login-modal></view>

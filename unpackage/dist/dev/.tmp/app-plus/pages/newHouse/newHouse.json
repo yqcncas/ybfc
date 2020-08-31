@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "新房详情",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-swiper-dot": "/components/uni-swiper-dot/uni-swiper-dot",
+    "guess": "/components/Guess/Guess",
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "login-modal": "/components/Modal/loginModal"
+  }
+}

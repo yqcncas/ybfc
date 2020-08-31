@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "房贷计算",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control",
+    "type-modal": "/components/Modal/typeModal",
+    "year-modal": "/components/Modal/yearModal",
+    "rate-modal": "/components/Modal/rateModal",
+    "rate": "/components/Modal/rate"
+  }
+}

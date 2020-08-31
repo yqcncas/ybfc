@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "分享",
+  "usingComponents": {
+    "nw-poster": "/components/wm-poster/nw-poster"
+  }
+}

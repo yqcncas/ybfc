@@ -1,0 +1,2 @@
+<wxs src="./handler.wxs" module="handler"></wxs>
+<view style="display:inherit;white-space:inherit;"><block wx:for="{{nodes}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><block wx:if="{{!item.continue}}"><block></block></block><block wx:else><trees class="{{[item.name+' '+(item.attrs.class||'')]}}" style="{{(item.attrs.style)}}" vue-id="{{'26db2430-1-'+index}}" nodes="{{item.children}}" imgMode="{{imgMode}}" lazyLoad="{{lazyLoad}}" bind:__l="__l"></trees></block></block></block></view>

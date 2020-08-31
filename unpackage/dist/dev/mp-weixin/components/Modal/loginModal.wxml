@@ -1,0 +1,1 @@
+<view><block wx:if="{{show}}"><view class="Modal"><view><text>授权提醒</text><text>请点击授权，授权后可继续浏览</text></view><view><button open-type="getPhoneNumber" data-event-opts="{{[['getphonenumber',[['GetPhoneNumber',['$event']]]]]}}" bindgetphonenumber="__e">授权手机号</button></view></view></block><view class="{{['mask',(show===true)?'maskShow':'']}}" catchtouchmove="true"></view></view>
